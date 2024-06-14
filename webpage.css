@@ -1,0 +1,105 @@
+div.header{
+    position: sticky;
+    top: 1%;
+
+    display: flex; 
+    justify-content: space-evenly; /* elements are spread across the screen */
+    padding: 1rem;
+
+    background-color: #18374e;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+
+    font-size: 1.2rem;
+    color: white;
+    align-items: center;
+
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* one link color */
+div.header a{
+    text-decoration: none;
+    color: white;
+}
+
+div.header a:hover{
+    color: #ffc400;
+}
+
+div.contact{
+    position: fixed;
+    bottom: 0%;
+
+    display: flex; 
+    justify-content: space-evenly;  
+    padding: 0.8rem;
+
+    background-color: #0c1c28;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+
+    font-size: 0.8rem;
+    color: white;
+    align-items: center;
+
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+div.block{
+    width: 100%;
+    right: 1%;
+    height: calc(100% - 3rem);
+    background-size: cover;
+    background-image: url(image/background.jpg);
+    background-position: center;
+}
+
+div.name{
+    bottom: 3cqi;
+    left: 3cqi;
+    background-color: transparent;
+    font-size: 3cqi;
+}
+
+div.content{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+div.content h1{
+    text-align: center;
+    width: 100%;
+
+    color: rgb(224, 23, 23);
+    font-size: large;
+    padding: 0.5cqi;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+}
+
+div.content h2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+div.content ol>li{
+    margin: 1rem;
+}
+
+div.content a{
+    text-decoration: wavy;
+    color: #1e8add;
+}
+
+div.content a:hover{
+    text-decoration: wavy;
+    color: #ffc918;
+}
+
+
