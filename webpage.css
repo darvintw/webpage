@@ -1,7 +1,29 @@
-div.header{
-    position: sticky;
-    top: 1%;
+div.block{
+    width: 100%;
+    right: 1%;
+    height: calc(100% - 5rem);
+    background-size: cover;
+    background-image: url(image/background.jpg);
+    background-position: center;
+}
 
+div.name{
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+    border-bottom: 0.1rem solid black;
+}
+
+div.header{
+    width: 100%;
+    position: sticky;
+    top: calc(0% + 4.3rem);
     display: flex; 
     justify-content: space-evenly; /* elements are spread across the screen */
     padding: 1rem;
@@ -9,7 +31,7 @@ div.header{
     background-color: #18374e;
     background-size: cover;
     background-position: bottom;
-    opacity: 0.5;
+    opacity: 0.7;
 
     font-size: 1.2rem;
     color: white;
@@ -18,7 +40,6 @@ div.header{
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-/* one link color */
 div.header a{
     text-decoration: none;
     color: white;
@@ -27,6 +48,7 @@ div.header a{
 div.header a:hover{
     color: #ffc400;
 }
+
 
 div.contact{
     position: fixed;
@@ -48,27 +70,12 @@ div.contact{
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-div.block{
-    width: 100%;
-    right: 1%;
-    height: calc(100% - 3rem);
-    background-size: cover;
-    background-image: url(image/background.jpg);
-    background-position: center;
-}
-
-div.name{
-    bottom: 3cqi;
-    left: 3cqi;
-    background-color: transparent;
-    font-size: 3cqi;
-}
-
 div.content{
     display: block;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 10rem;
+    font-size: 1rem;
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -78,9 +85,9 @@ div.content h1{
     width: 100%;
 
     color: rgb(224, 23, 23);
-    font-size: large;
-    padding: 0.5cqi;
-    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 div.content h2{
