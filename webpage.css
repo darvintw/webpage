@@ -1,6 +1,4 @@
 div.block{
-    width: 100%;
-    right: 1%;
     height: calc(100% - 5rem);
     background-size: cover;
     background-image: url(image/background.jpg);
@@ -8,6 +6,7 @@ div.block{
 }
 
 div.name{
+    left: 0%;
     width: 100%;
     top: 0%;
     position: fixed;
@@ -21,9 +20,8 @@ div.name{
 }
 
 div.header{
-    width: 100%;
     position: sticky;
-    top: calc(0% + 4.3rem);
+    top: calc(0% + 4.4rem);
     display: flex; 
     justify-content: space-evenly; /* elements are spread across the screen */
     padding: 1rem;
