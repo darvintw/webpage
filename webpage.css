@@ -1,14 +1,14 @@
 div.block{
-    height: calc(100% - 5rem);
+    height: calc(100% - 6rem);
     background-size: cover;
     background-image: url(image/background.jpg);
     background-position: center;
 }
 
 div.name{
-    left: 0%;
     width: 100%;
     top: 0%;
+    left: 0%;
     position: fixed;
     font-size: 2rem;
     padding: 1rem;
@@ -16,7 +16,7 @@ div.name{
     background-color: white;
     font-weight: 100;
     font-family: sans-serif;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.05rem solid black;
 }
 
 div.header{
@@ -83,9 +83,10 @@ div.content h1{
     width: 100%;
 
     color: rgb(224, 23, 23);
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 100;
     padding: 1rem;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
 }
 
 div.content h2{
@@ -105,6 +106,17 @@ div.content a{
 div.content a:hover{
     text-decoration: wavy;
     color: #ffc918;
+}
+
+@media screen and (max-aspect-ratio: 0.8){
+    div.block{
+        height: 60%;
+    }
+
+    div.content{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 
