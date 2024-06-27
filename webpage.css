@@ -1,65 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+
 div.block{
+    width: 100%;
     height: calc(100% - 6rem);
-    background-size: cover;
+    background-size:cover;
     background-image: url(image/background.jpg);
     background-position: center;
 }
 
-div.name{
-    width: 100%;
+div.header{
+    display: block;
+    position: sticky;
+    justify-content: space-evenly;
     top: 0%;
-    left: 0%;
-    position: fixed;
-    font-size: 2rem;
-    padding: 1rem;
-    text-align: center;
-    background-color: white;
-    font-weight: 100;
-    font-family: sans-serif;
-    border-bottom: 0.05rem solid black;
+    width: 100%;
+    background-color: #18374e69;
 }
 
-div.header{
-    position: sticky;
-    top: calc(0% + 4.4rem);
+div.name{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+div.menu{
     display: flex; 
     justify-content: space-evenly; /* elements are spread across the screen */
     padding: 1rem;
 
-    background-color: #18374e;
     background-size: cover;
     background-position: bottom;
-    opacity: 0.7;
 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
     align-items: center;
 
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-div.header a{
+div.menu a{
     text-decoration: none;
     color: white;
 }
 
-div.header a:hover{
+div.menu a:hover{
     color: #ffc400;
 }
 
 
 div.contact{
-    position: fixed;
-    bottom: 0%;
-
     display: flex; 
     justify-content: space-evenly;  
-    padding: 0.8rem;
+    padding: 1rem;
 
-    background-color: #0c1c28;
+    background-color: #18374eaf;
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
 
     font-size: 0.8rem;
     color: white;
@@ -70,37 +72,42 @@ div.contact{
 
 div.content{
     display: block;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: sans-serif;
 }
 
 div.content h1{
     text-align: center;
     width: 100%;
 
-    color: rgb(224, 23, 23);
+    color: #1c6aa7; 
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: bolder;
     padding: 1rem;
     font-family: sans-serif;
 }
 
 div.content h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    color: black;
 }
 
-div.content ol>li{
+div.content ul>li{
     margin: 1rem;
 }
 
 div.content a{
-    text-decoration: wavy;
-    color: #1e8add;
+    color: #1973b8;
+    text-decoration: none;
 }
 
 div.content a:hover{
@@ -108,9 +115,36 @@ div.content a:hover{
     color: #ffc918;
 }
 
-@media screen and (max-aspect-ratio: 0.8){
-    div.block{
-        height: 60%;
+div.uparrow{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: transparent;
+}
+
+div.uparrow img{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+@media screen and (max-aspect-ratio: 1){
+    div.header{
+        display: block;
+    }
+
+    div.name{
+        width: 100%;
+        padding: 0rem;
+        padding-top: 1.2cqh;
+        padding-bottom: 1.2cqh;
+    }
+
+
+    div.menu{
+        width: 100%;
+        padding: 0rem;
+        padding-bottom: 1.2cqh;
     }
 
     div.content{
