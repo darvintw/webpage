@@ -145,10 +145,6 @@ div.content a{
   body{
     width: 100%;
   }
-  div.toc{
-    width: 100%;
-    font-size: 5cqw;
-  }
 
   div.content{
     padding: 1.5cqw;
