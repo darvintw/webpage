@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
 html{
   display: flex;
   scroll-behavior: smooth;
@@ -142,9 +145,10 @@ div.content a{
   body{
     width: 100%;
   }
+
   div.toc{
-    width: 100%;
-    font-size: 5cqw;
+    font-size: 4.5cqw;
+    height: 4.5cqh;
   }
 
   div.content{
