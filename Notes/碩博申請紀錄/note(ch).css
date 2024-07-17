@@ -146,21 +146,12 @@ div.content a{
     width: 100%;
   }
 
-  h1{
-    font-size: 6cqw;
-  }
-
-  h2{
-    font-size: 5cqw;
-  }
-
   div.toc{
     font-size: 4.5cqw;
     height: 4.5cqh;
   }
 
   div.content{
-    font-size: 4.5cqw;
     padding: 1.5cqw;
   }
 }
