@@ -1,35 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
 
+body{
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
 div.block{
     width: 100%;
-    height: calc(100% - 6rem);
+    height: 40%;
     background-size:cover;
     background-image: url(image/background.jpg);
     background-position: center;
 }
 
 div.header{
-    display: block;
+    display: inline-block;
     position: sticky;
-    justify-content: space-evenly;
     top: 0%;
     width: 100%;
     background-color: #18374e69;
 }
 
 div.name{
-    width: 100%;
+    margin: auto;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     color: white;
     font-weight: bolder;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 div.menu{
+    margin: auto;
+
     display: flex; 
     justify-content: space-evenly; /* elements are spread across the screen */
     padding: 1rem;
@@ -37,11 +50,12 @@ div.menu{
     background-size: cover;
     background-position: bottom;
 
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    word-spacing: 0.5rem;
     color: white;
     align-items: center;
 
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 div.menu a{
@@ -71,28 +85,30 @@ div.contact{
 }
 
 div.content{
-    display: block;
+    width: min(90%, 60rem);
+    margin: auto; /* so that it is placed in the middle */
+    margin-bottom: 10rem;
+
     flex-direction: column;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    word-spacing: 0.2rem;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.7);
+    font-weight: 300;
 
-    font-family: sans-serif;
+    font-family: 'Literata', 'Klee One', sans-serif;
 }
 
 div.content h1{
     text-align: center;
     width: 100%;
 
-    color: #1c6aa7; 
+    color: #185787; 
     font-size: 2rem;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 1rem;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 div.content h2{
@@ -102,17 +118,19 @@ div.content h2{
 }
 
 div.content ul>li{
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 div.content a{
-    color: #1973b8;
-    text-decoration: none;
+    word-spacing: 0;
+    font-weight: 600;
+    color: rgba(131, 23, 23, 0.708);
+    text-decoration: underline;
 }
 
 div.content a:hover{
     text-decoration: wavy;
-    color: #ffc918;
+    color: #ffc300; 
 }
 
 div.uparrow{
