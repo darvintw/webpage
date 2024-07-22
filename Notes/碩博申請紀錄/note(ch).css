@@ -156,21 +156,21 @@ div.content a{
     font-size: 10cqw;
     text-align: center;
     margin: 1cqh;
-    font-weight: 300;
+    font-weight: bold;
     font-family: 'Klee One',serif;
   }
   
   h2{
     font-size: 8cqw;
     color: black;
-    font-weight: 300;
+    font-weight: bold;
     font-family: 'Klee One', serif;
   }
   
   h3{
     color: black;
     font-family: 'Klee One', serif;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 6.5cqw;
   }
 
