@@ -21,7 +21,7 @@ h1{
   font-size: 3rem;
   text-align: center;
   margin: 1rem;
-  font-weight: 800;
+  font-weight: 600;
   font-family: 'Klee One',serif;
 }
 
@@ -156,22 +156,22 @@ div.content a{
     font-size: 10cqw;
     text-align: center;
     margin: 1cqh;
-    font-weight: 800;
+    font-weight: 300;
     font-family: 'Klee One',serif;
   }
   
   h2{
     font-size: 8cqw;
     color: black;
-    font-weight: 600;
+    font-weight: 300;
     font-family: 'Klee One', serif;
   }
   
   h3{
     color: black;
     font-family: 'Klee One', serif;
-    font-weight: 600;
-    font-size: 6cqw;
+    font-weight: 300;
+    font-size: 6.5cqw;
   }
 
   div.content{
