@@ -85,7 +85,7 @@ div.contact{
 }
 
 div.content{
-    width: min(90%, 60rem);
+    width: min(90%, 50rem);
     margin: auto; /* so that it is placed in the middle */
     margin-bottom: 10rem;
 
